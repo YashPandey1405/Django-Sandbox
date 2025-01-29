@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BootStrap CDN Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static 'homeStyle.css' %}" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <h1>Welcome User , You're At Home Page</h1>
+    <p>
+      Welcome to my website! I am Yash Pandey, a passionate software developer
+      with expertise in Java, JavaScript, and the MERN stack.
+      I am currently exploring the world of Data Science and AI to further
+      enhance my skills and contribute to innovative projects.
+      On this platform, you'll find my portfolio showcasing projects I’ve worked
+      on, including web development, data science, and more.
+      I believe in creating solutions that not only meet the needs of users but
+      also make a positive impact on society.
+      Whether you're looking for technical tutorials, coding resources, or a
+      collaboration on exciting new ideas, you’ve come to the right place!
+      Explore my projects, learn with me, and let’s connect to build something
+      amazing together.
+    </p>
+
+    <div
+      class="card shadow-lg rounded-3 border-0"
+      style="width: 100%; max-width: 22rem"
+    >
+      <img
+        src="data:image/jpeg;base64,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"
+        class="card-img-top rounded-top"
+        alt="Tech Image"
+      />
+      <div class="card-body text-center">
+        <h5 class="card-title fw-bold">Welcome to My Website</h5>
+        <p class="card-text text-muted">
+          Explore amazing features and content designed just for you.
+        </p>
+        <a href="about" class="btn btn-outline-primary">About Us</a>
+        <a href="contact" class="btn btn-outline-danger">Contact Us</a>
+      </div>
+    </div>
+  </body>
+</html>
